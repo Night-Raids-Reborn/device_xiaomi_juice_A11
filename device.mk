@@ -212,6 +212,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
