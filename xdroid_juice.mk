@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common xdroid stuff.
-$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
