@@ -11,6 +11,12 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
+XDROID_MAINTAINER := Darknius
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xdroid_juice
