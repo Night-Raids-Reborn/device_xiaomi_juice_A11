@@ -20,7 +20,7 @@ persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 vendor.bluetooth.soc=cherokee
 
 # Dex
-pm.dexopt.ab-ota=extract
+#pm.dexopt.ab-ota=extract
 pm.dexopt.install=speed-profile
 pm.dexopt.first-boot=quicken
 dalvik.vm.dex2oat-cpu-set=0,1,5,6
