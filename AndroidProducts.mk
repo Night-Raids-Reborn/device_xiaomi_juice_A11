@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The aicpOS Project
+# Copyright (C) 2021 The evolutionOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_juice.mk
+    $(LOCAL_DIR)/evolution_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_juice-user \
-    aicp_juice-userdebug \
-    aicp_juice-eng
+    evolution_juice-user \
+    evolution_juice-userdebug \
+    evolution_juice-eng
