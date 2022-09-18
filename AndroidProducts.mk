@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The evolutionOS Project
+# Copyright (C) 2021 The lineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_juice.mk
+    $(LOCAL_DIR)/lineage_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_juice-user \
-    evolution_juice-userdebug \
-    evolution_juice-eng
+    lineage_juice-user \
+    lineage_juice-userdebug \
+    lineage_juice-eng
